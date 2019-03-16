@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:lesson-1-binary-gap": "babel-node ./lesson-1-iterations/binary-gap",
+    "start:lesson-2-cyclic-rotation": "babel-node ./lesson-2-arrays/cyclic-rotation",
     "test": "jest .",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
