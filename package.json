@@ -6,6 +6,7 @@
   "scripts": {
     "start:lesson-1-binary-gap": "babel-node ./lesson-1-iterations/binary-gap",
     "start:lesson-2-cyclic-rotation": "babel-node ./lesson-2-arrays/cyclic-rotation",
+    "start:lesson-2-odd-occurrences-in-arrays": "babel-node ./lesson-2-arrays/odd-occurrences-in-arrays",
     "test": "jest .",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
