@@ -15,4 +15,28 @@ describe('binary gap solution', () => {
     expect(solution(8737)).toBe(4); // 10001000100001
     expect(solution(4368)).toBe(3); // 1000100010000
   });
+
+  it('trailing_zeroes', () => {
+    expect(solution(328)).toBe(2); // 101001000
+  });
+
+  it('medium1', () => {
+    expect(solution(51712)).toBe(2); // 110010100000000
+  });
+
+  it('medium3', () => {
+    expect(solution(66561)).toBe(9); // 10000010000000001
+  });
+
+  it('large1', () => {
+    expect(solution(6291457)).toBe(20); // 11000000000000000000001
+  });
+
+  it('large3', () => {
+    expect(solution(805306373)).toBe(25); // 110000000000000000000000000101
+  });
+
+  it('large6', () => {
+    expect(solution(1610612737)).toBe(28); // 1100000000000000000000000000001
+  });
 });
